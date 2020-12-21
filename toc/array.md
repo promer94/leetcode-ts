@@ -2,7 +2,7 @@
 
 <!--- table -->
 
-总计: 6
+总计: 7
 
 | 序号 | 难度 | 题目                                                                                                                                    | 解答                                  |
 | ---- | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
@@ -12,3 +12,4 @@
 | 34   | 中等 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [solve/solve0034](../solve/solve0034) |
 | 88   | 简单 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)                                                                | [solve/solve0088](../solve/solve0088) |
 | 217  | 简单 | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)                                                                    | [solve/solve0217](../solve/solve0217) |
+| 714  | 中等 | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)                    | [solve/solve0714](../solve/solve0714) |

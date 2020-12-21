@@ -2,7 +2,7 @@
 
 <!--- table -->
 
-总计: 16
+总计: 17
 
 | 序号 | 难度 | 题目                                                                                                                                    | 解答                                  |
 | ---- | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
@@ -21,4 +21,5 @@
 | 217  | 简单 | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)                                                                    | [solve/solve0217](../solve/solve0217) |
 | 290  | 简单 | [单词规律](https://leetcode-cn.com/problems/word-pattern/)                                                                              | [solve/solve0290](../solve/solve0290) |
 | 389  | 简单 | [找不同](https://leetcode-cn.com/problems/find-the-difference/)                                                                         | [solve/solve0389](../solve/solve0389) |
+| 714  | 中等 | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)                    | [solve/solve0714](../solve/solve0714) |
 | 738  | 中等 | [单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/)                                                          | [solve/solve0738](../solve/solve0738) |
