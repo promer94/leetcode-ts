@@ -9,7 +9,8 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "allowJs": true
   },
   "exclude": ["node_modules", "dist"],
   "include": ["solve"]
