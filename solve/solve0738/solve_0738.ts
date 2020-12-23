@@ -33,3 +33,5 @@ export function monotoneIncreasingDigits(N: number): number {
     return N
   }
 }
+
+monotoneIncreasingDigits(332)
