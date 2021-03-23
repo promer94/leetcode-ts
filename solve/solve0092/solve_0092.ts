@@ -8,6 +8,8 @@
  * @frontendId 92
  */
 
+import { ListNode } from '../solve0021/solve_0021'
+
 export /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -24,4 +26,22 @@ function reverseBetween(
   head: ListNode | null,
   m: number,
   n: number
-): ListNode | null {}
+): ListNode | null {
+  if (head === null) return head
+  if (m === 1) {
+    const [newHead] = reverseN(head, n)
+    return newHead
+  }
+  head.next = reverseBetween(head.next, m - 1, n - 1)
+  return head
+}
+
+function reverseN(head: ListNode, n: number): [ListNode, ListNode] {
+  if (n === 1) {
+    return [head, head.next]
+  }
+  const [newhead, tail] = reverseN(head.next, n - 1)
+  head.next.next = head
+  head.next = tail
+  return [newhead, tail]
+}
