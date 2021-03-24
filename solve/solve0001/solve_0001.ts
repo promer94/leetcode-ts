@@ -8,7 +8,7 @@
  * @frontendId 1
  */
 
-export function twoSum(nums: number[], target: number): number[] {
+function twoSum(nums: number[], target: number): number[] {
   const mp = new Map<number, number>()
 
   for (let i = 0; i < nums.length; i++) {
@@ -20,3 +20,5 @@ export function twoSum(nums: number[], target: number): number[] {
 
   return []
 }
+
+twoSum([1, 2, 3, 4], 6)

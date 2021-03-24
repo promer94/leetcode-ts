@@ -1,4 +1,4 @@
-export class ListNode {
+class ListNode {
   val: number
   next: ListNode | null
   constructor(val?: number, next?: ListNode | null) {
@@ -41,5 +41,4 @@ const c = new ListNode(3)
 
 a.next = b
 b.next = c
-
-console.log(reverseKGroup(a, 2))
+reverseKGroup(a, 2)
