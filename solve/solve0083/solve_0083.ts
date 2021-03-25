@@ -20,4 +20,21 @@ export /**
  * }
  */
 
-function deleteDuplicates(head: ListNode | null): ListNode | null {}
+function deleteDuplicates(head: ListNode | null): ListNode | null {
+  if (head === null) return head
+  const node = new ListNode(-1)
+  node.next = head
+  let a = node
+  while (a.next !== null && a.next.next !== null) {
+    if (a.next.val === a.next.next.val) {
+      const val = a.next.val
+      while (a.next !== null && a.next.next.val === val) {
+        a.next = a.next.next
+      }
+    } else {
+      a = a.next
+    }
+  }
+
+  return node.next
+}
