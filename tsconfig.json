@@ -10,7 +10,8 @@
     "preserveConstEnums": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "allowJs": true
+    "allowJs": true,
+    "isolatedModules": true
   },
   "exclude": ["node_modules", "dist", ".eslintrc.js"],
   "include": ["solve"]

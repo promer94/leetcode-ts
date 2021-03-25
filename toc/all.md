@@ -2,14 +2,16 @@
 
 <!--- table -->
 
-总计: 29
+总计: 31
 
 | 序号 | 难度 | 题目                                                                                                                                    | 解答                                  |
 | ---- | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
 | 1    | 简单 | [两数之和](https://leetcode-cn.com/problems/two-sum/)                                                                                   | [solve/solve0001](../solve/solve0001) |
 | 3    | 中等 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)                                | [solve/solve0003](../solve/solve0003) |
+| 19   | 中等 | [删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)                                         | [solve/solve0019](../solve/solve0019) |
 | 20   | 简单 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)                                                                       | [solve/solve0020](../solve/solve0020) |
 | 21   | 简单 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)                                                            | [solve/solve0021](../solve/solve0021) |
+| 24   | 中等 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)                                                           | [solve/solve0024](../solve/solve0024) |
 | 25   | 困难 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)                                                          | [solve/solve0025](../solve/solve0025) |
 | 26   | 简单 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)                                         | [solve/solve0026](../solve/solve0026) |
 | 34   | 中等 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [solve/solve0034](../solve/solve0034) |

@@ -8,7 +8,7 @@
  * @frontendId 25
  */
 
-export class ListNode {
+class ListNode {
   val: number
   next: ListNode | null
   constructor(val?: number, next?: ListNode | null) {
@@ -20,7 +20,7 @@ export class ListNode {
 function reverse(a: ListNode, b: ListNode): ListNode {
   let prev = null
   let current = a
-  while (current != b) {
+  while (current !== b) {
     const temp = current.next
     current.next = prev
     prev = current
@@ -29,10 +29,7 @@ function reverse(a: ListNode, b: ListNode): ListNode {
   return prev
 }
 
-export function reverseKGroup(
-  head: ListNode | null,
-  k: number
-): ListNode | null {
+function reverseKGroup(head: ListNode | null, k: number): ListNode | null {
   if (head === null) {
     return null
   }
