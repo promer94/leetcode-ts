@@ -19,17 +19,16 @@ class ListNode {
 
 function swapPairs(head: ListNode | null): ListNode | null {
   if (head === null) return head
-
-  // 创建虚拟头节点
   const node = new ListNode()
   node.next = head
 
-  for (let a = head; ; ) {
+  for (let a = node; ; ) {
     let flag = a
     for (let i = 0; i < 2; i++) {
-      if (flag === null) return a
+      if (flag === null) return node.next
       flag = flag.next
     }
+    if (flag === null) return node.next
     let b = a.next
     let c = b.next
     for (let i = 0; i < 1; i++) {
@@ -41,7 +40,8 @@ function swapPairs(head: ListNode | null): ListNode | null {
     const temp = a.next
     a.next = b
     temp.next = c
-    a = b
+    a = temp
   }
+
   return node.next
 }
