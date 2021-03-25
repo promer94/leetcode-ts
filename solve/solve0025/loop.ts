@@ -18,6 +18,7 @@ function reverseKGroup(head: ListNode | null, k: number): ListNode | null {
       if (flag === null) return node.next
       flag = flag.next
     }
+    if (flag === null) return node.next
     let b = a.next
     let c = b.next
     for (let i = 0; i < k - 1; i++) {
@@ -29,16 +30,8 @@ function reverseKGroup(head: ListNode | null, k: number): ListNode | null {
     const temp = a.next
     a.next = b
     temp.next = c
-    a = c
+    a = temp
   }
 
   return node.next
 }
-
-const a = new ListNode(1)
-const b = new ListNode(2)
-const c = new ListNode(3)
-
-a.next = b
-b.next = c
-reverseKGroup(a, 2)
