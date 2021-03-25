@@ -28,13 +28,12 @@ function deleteDuplicates(head: ListNode | null): ListNode | null {
   while (a.next !== null && a.next.next !== null) {
     if (a.next.val === a.next.next.val) {
       const val = a.next.val
-      while (a.next !== null && a.next.next.val === val) {
+      while (a.next !== null && a.next.val === val) {
         a.next = a.next.next
       }
     } else {
       a = a.next
     }
   }
-
   return node.next
 }
