@@ -2,7 +2,7 @@
 
 <!--- table -->
 
-总计: 31
+总计: 36
 
 | 序号 | 难度 | 题目                                                                                                                                    | 解答                                  |
 | ---- | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
@@ -17,13 +17,18 @@
 | 34   | 中等 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [solve/solve0034](../solve/solve0034) |
 | 48   | 中等 | [旋转图像](https://leetcode-cn.com/problems/rotate-image/)                                                                              | [solve/solve0048](../solve/solve0048) |
 | 49   | 中等 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)                                                                      | [solve/solve0049](../solve/solve0049) |
+| 61   | 中等 | [旋转链表](https://leetcode-cn.com/problems/rotate-list/)                                                                               | [solve/solve0061](../solve/solve0061) |
+| 82   | 中等 | [删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)                                  | [solve/solve0082](../solve/solve0082) |
+| 83   | 简单 | [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)                                        | [solve/solve0083](../solve/solve0083) |
 | 88   | 简单 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)                                                                | [solve/solve0088](../solve/solve0088) |
 | 92   | 中等 | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)                                                                 | [solve/solve0092](../solve/solve0092) |
 | 94   | 中等 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)                                                     | [solve/solve0094](../solve/solve0094) |
 | 103  | 中等 | [二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)                                    | [solve/solve0103](../solve/solve0103) |
 | 105  | 中等 | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)           | [solve/solve0105](../solve/solve0105) |
+| 107  | 中等 | [二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)                                           | [solve/solve0107](../solve/solve0107) |
 | 135  | 困难 | [分发糖果](https://leetcode-cn.com/problems/candy/)                                                                                     | [solve/solve0135](../solve/solve0135) |
 | 136  | 简单 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)                                                                     | [solve/solve0136](../solve/solve0136) |
+| 141  | 简单 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)                                                                         | [solve/solve0141](../solve/solve0141) |
 | 144  | 中等 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)                                                    | [solve/solve0144](../solve/solve0144) |
 | 145  | 中等 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)                                                   | [solve/solve0145](../solve/solve0145) |
 | 206  | 简单 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)                                                                       | [solve/solve0206](../solve/solve0206) |

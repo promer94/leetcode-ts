@@ -45,3 +45,9 @@ function swapPairs(head: ListNode | null): ListNode | null {
 
   return node.next
 }
+
+const a = new ListNode(1)
+a.next = new ListNode(2)
+a.next.next = new ListNode(3)
+
+console.log(swapPairs(a))

@@ -6,7 +6,7 @@
     {
       "label": "esbuild",
       "type": "shell",
-      "command": "npx esbuild ${file} --sourcemap --outfile=${workspaceFolder}/dist/${relativeFileDirname}/${fileBasenameNoExtension}.js"
+      "command": "npx esbuild solve/**/*.ts --sourcemap --outdir=dist --out-extension:.js=.mjs"
     }
   ]
 }
