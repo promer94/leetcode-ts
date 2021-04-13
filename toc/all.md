@@ -2,7 +2,7 @@
 
 <!--- table -->
 
-总计: 41
+总计: 44
 
 | 序号 | 难度 | 题目                                                                                                                                    | 解答                                  |
 | ---- | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
@@ -14,7 +14,9 @@
 | 24   | 中等 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)                                                           | [solve/solve0024](../solve/solve0024) |
 | 25   | 困难 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)                                                          | [solve/solve0025](../solve/solve0025) |
 | 26   | 简单 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)                                         | [solve/solve0026](../solve/solve0026) |
+| 33   | 中等 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)                                                    | [solve/solve0033](../solve/solve0033) |
 | 34   | 中等 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [solve/solve0034](../solve/solve0034) |
+| 35   | 简单 | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)                                                                | [solve/solve0035](../solve/solve0035) |
 | 48   | 中等 | [旋转图像](https://leetcode-cn.com/problems/rotate-image/)                                                                              | [solve/solve0048](../solve/solve0048) |
 | 49   | 中等 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)                                                                      | [solve/solve0049](../solve/solve0049) |
 | 61   | 中等 | [旋转链表](https://leetcode-cn.com/problems/rotate-list/)                                                                               | [solve/solve0061](../solve/solve0061) |
@@ -34,6 +36,7 @@
 | 141  | 简单 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)                                                                         | [solve/solve0141](../solve/solve0141) |
 | 144  | 中等 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)                                                    | [solve/solve0144](../solve/solve0144) |
 | 145  | 中等 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)                                                   | [solve/solve0145](../solve/solve0145) |
+| 153  | 中等 | [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)                                    | [solve/solve0153](../solve/solve0153) |
 | 179  | 中等 | [最大数](https://leetcode-cn.com/problems/largest-number/)                                                                              | [solve/solve0179](../solve/solve0179) |
 | 199  | 中等 | [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)                                                         | [solve/solve0199](../solve/solve0199) |
 | 206  | 简单 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)                                                                       | [solve/solve0206](../solve/solve0206) |

@@ -10,8 +10,8 @@
 
 export function largestNumber(nums: number[]): string {
   nums.sort((x, y) => {
-    let sx = 10,
-      sy = 10
+    let sx = 10
+    let sy = 10
     while (sx <= x) {
       sx *= 10
     }
