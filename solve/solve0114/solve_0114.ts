@@ -36,7 +36,7 @@ class TreeNode {
 /**
  Do not return anything, modify root in-place instead.
  */
-function flatten(root: TreeNode | null): void {
+export function flatten(root: TreeNode | null): void {
   if (root === null) return
   const list: TreeNode[] = []
   preOrder(root, list)

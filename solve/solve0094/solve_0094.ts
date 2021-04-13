@@ -36,3 +36,31 @@ export function inorderTraversal(
   }
   return []
 }
+
+export function inorderMorris(
+  root: TreeNode | null,
+  result: number[] = []
+): number[] {
+  if (root === null) return result
+  let curr = root
+  while (curr !== null) {
+    if (curr.left === null) {
+      result.push(curr.val)
+      curr = curr.right
+    } else {
+      let prev = curr.left
+      while (prev.right !== null && prev.right !== curr) {
+        prev = prev.right
+      }
+      if (prev.right === null) {
+        prev.right = curr
+        curr = curr.left
+      } else {
+        prev.right = null
+        result.push(curr.val)
+        curr = curr.right
+      }
+    }
+  }
+  return result
+}
