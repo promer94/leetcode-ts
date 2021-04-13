@@ -17,7 +17,7 @@ class ListNode {
   }
 }
 
-function rotateRight(head: ListNode | null, k: number): ListNode | null {
+export function rotateRight(head: ListNode | null, k: number): ListNode | null {
   if (head === null || k === 0) return head
   // 虚拟头节点
   const node = new ListNode()

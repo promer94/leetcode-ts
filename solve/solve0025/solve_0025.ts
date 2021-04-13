@@ -29,7 +29,10 @@ function reverse(a: ListNode, b: ListNode): ListNode {
   return prev
 }
 
-function reverseKGroup(head: ListNode | null, k: number): ListNode | null {
+export function reverseKGroup(
+  head: ListNode | null,
+  k: number
+): ListNode | null {
   if (head === null) {
     return null
   }

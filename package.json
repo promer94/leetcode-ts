@@ -10,7 +10,8 @@
     "jest": "jest --detectOpenHandles --forceExit",
     "jest:cov": "jest --coverage --detectOpenHandles --forceExit",
     "prepublishOnly": "npm run build",
-    "update": "leetcode-tool update && npm run format"
+    "update": "leetcode-tool update && npm run format",
+    "build": "esbuild solve/**/*.ts --sourcemap --outdir=dist --out-extension:.js=.mjs"
   },
   "types": "./dist/index.d.ts",
   "author": "zcong1993",

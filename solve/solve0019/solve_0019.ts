@@ -17,7 +17,7 @@ export class ListNode {
   }
 }
 
-function removeNthFromEnd(head: ListNode | null, n: number) {
+export function removeNthFromEnd(head: ListNode | null, n: number) {
   if (head === null) return head
   const node = new ListNode()
   node.next = head

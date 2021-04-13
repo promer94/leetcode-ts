@@ -17,7 +17,7 @@ class ListNode {
   }
 }
 
-function swapPairs(head: ListNode | null): ListNode | null {
+export function swapPairs(head: ListNode | null): ListNode | null {
   if (head === null) return head
   const node = new ListNode()
   node.next = head
