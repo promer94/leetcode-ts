@@ -10,7 +10,7 @@
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
       "program": "${file}",
-      "preLaunchTask": "esbuild",
+      "preLaunchTask": "npm: build",
       "outFiles": ["${workspaceFolder}/dist/**/*.mjs"]
     }
   ]

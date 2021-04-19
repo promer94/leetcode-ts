@@ -11,8 +11,9 @@
     "jest:cov": "jest --coverage --detectOpenHandles --forceExit",
     "prepublishOnly": "npm run build",
     "update": "leetcode-tool update && npm run format",
-    "build": "esbuild solve/**/*.ts --sourcemap --outdir=dist --out-extension:.js=.mjs"
+    "build": "node build.mjs"
   },
+  "type": "module",
   "types": "./dist/index.d.ts",
   "author": "zcong1993",
   "license": "MIT",
@@ -30,7 +31,8 @@
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "ts-jest": "^26.5.4",
-    "typescript": "^4.2.3"
+    "typescript": "^4.2.3",
+    "glob": "^7.1.6"
   },
   "lint-staged": {
     "*.{js,json,ts}": [
