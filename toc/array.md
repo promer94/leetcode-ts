@@ -2,7 +2,7 @@
 
 <!--- table -->
 
-总计: 12
+总计: 14
 
 | 序号 | 难度 | 题目                                                                                                                                    | 解答                                  |
 | ---- | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
@@ -18,3 +18,5 @@
 | 217  | 简单 | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)                                                                    | [solve/solve0217](../solve/solve0217) |
 | 714  | 中等 | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)                    | [solve/solve0714](../solve/solve0714) |
 | 747  | 简单 | [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)                                                        | [solve/solve0747](../solve/solve0747) |
+| 1056 | 中等 | [在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)                                    | [solve/solve1056](../solve/solve1056) |
+| 1206 | 中等 | [航班预订统计](https://leetcode-cn.com/problems/corporate-flight-bookings/)                                                             | [solve/solve1206](../solve/solve1206) |
