@@ -5,14 +5,14 @@ function findTs() {
   return new Promise((resolve, reject) => {
     glob('solve/**/*.ts', {}, function (er, files) {
       if (er) reject(error)
-      resolve(files)
+      resolve(files.filter((v) => !v.includes('test')))
     })
   })
 }
 
 function buildTs(files) {
-  esbuild.build({
-    entryPoints: files.filter((v) => !v.includes('test')),
+  return esbuild.build({
+    entryPoints: files,
     write: true,
     outdir: 'dist',
     sourcemap: true,
@@ -21,9 +21,7 @@ function buildTs(files) {
 }
 
 findTs()
-  .then((v) => {
-    buildTs(v)
-  })
+  .then((v) => buildTs(v))
   .catch((e) => {
     console.log('build faild')
   })
