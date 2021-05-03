@@ -2,10 +2,11 @@
 
 <!--- table -->
 
-总计: 10
+总计: 11
 
 | 序号 | 难度 | 题目                                                                                                   | 解答                                  |
 | ---- | ---- | ------------------------------------------------------------------------------------------------------ | ------------------------------------- |
+| 2    | 中等 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/)                                          | [solve/solve0002](../solve/solve0002) |
 | 19   | 中等 | [删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)        | [solve/solve0019](../solve/solve0019) |
 | 21   | 简单 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)                           | [solve/solve0021](../solve/solve0021) |
 | 24   | 中等 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)                          | [solve/solve0024](../solve/solve0024) |
