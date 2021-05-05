@@ -24,11 +24,14 @@ function mergeTrees(
   root2: TreeNode | null
 ): TreeNode | null {
   if (!root1 && !root2) return root1
+
+  // 首先构建当前节点
   if (root1 === null) return root2
   if (root2 === null) return root1
+  const newHead = new TreeNode(root1.val + root2.val)
+  // 递归构建 左节点和右节点
   const newLeft = mergeTrees(root1.left, root2.left)
   const newRight = mergeTrees(root1.right, root2.right)
-  const newHead = new TreeNode(root1.val + root2.val)
   newHead.left = newLeft
   newHead.right = newRight
   return newHead
