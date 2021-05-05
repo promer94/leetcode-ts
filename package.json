@@ -5,8 +5,8 @@
   "scripts": {
     "test": "npm run jest",
     "test:cov": "npm run lint && npm run jest:cov",
-    "lint": "eslint 'solve/**/*.ts'",
-    "format": "prettier --write '**/*.{ts,json,md}'",
+    "lint": "eslint solve/**/*.ts",
+    "format": "prettier --write **/*.{ts,json,md}",
     "jest": "jest --detectOpenHandles --forceExit",
     "jest:cov": "jest --coverage --detectOpenHandles --forceExit",
     "prepublishOnly": "npm run build",

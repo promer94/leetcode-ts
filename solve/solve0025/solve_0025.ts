@@ -38,7 +38,7 @@ export function reverseKGroup(
   }
   let right = head
   for (let i = 0; i < k; i++) {
-    if (right == null) return head
+    if (right === null) return head
     right = right.next
   }
   const newHead = reverse(head, right)
