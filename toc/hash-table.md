@@ -2,7 +2,7 @@
 
 <!--- table -->
 
-总计: 9
+总计: 10
 
 | 序号 | 难度 | 题目                                                                                                     | 解答                                  |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------- | ------------------------------------- |
@@ -13,5 +13,6 @@
 | 136  | 简单 | [只出现一次的数字](https://leetcode-cn.com/problems/single-number/)                                      | [solve/solve0136](../solve/solve0136) |
 | 217  | 简单 | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)                                     | [solve/solve0217](../solve/solve0217) |
 | 290  | 简单 | [单词规律](https://leetcode-cn.com/problems/word-pattern/)                                               | [solve/solve0290](../solve/solve0290) |
+| 347  | 中等 | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)                             | [solve/solve0347](../solve/solve0347) |
 | 387  | 简单 | [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)         | [solve/solve0387](../solve/solve0387) |
 | 389  | 简单 | [找不同](https://leetcode-cn.com/problems/find-the-difference/)                                          | [solve/solve0389](../solve/solve0389) |

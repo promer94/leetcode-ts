@@ -2,7 +2,7 @@
 
 <!--- table -->
 
-总计: 56
+总计: 58
 
 | 序号   | 难度 | 题目                                                                                                                                    | 解答                                      |
 | ------ | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
@@ -47,8 +47,10 @@
 | 179    | 中等 | [最大数](https://leetcode-cn.com/problems/largest-number/)                                                                              | [solve/solve0179](../solve/solve0179)     |
 | 199    | 中等 | [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)                                                         | [solve/solve0199](../solve/solve0199)     |
 | 206    | 简单 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)                                                                       | [solve/solve0206](../solve/solve0206)     |
+| 215    | 中等 | [数组中的第 K 个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)                                            | [solve/solve0215](../solve/solve0215)     |
 | 217    | 简单 | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)                                                                    | [solve/solve0217](../solve/solve0217)     |
 | 290    | 简单 | [单词规律](https://leetcode-cn.com/problems/word-pattern/)                                                                              | [solve/solve0290](../solve/solve0290)     |
+| 347    | 中等 | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)                                                            | [solve/solve0347](../solve/solve0347)     |
 | 387    | 简单 | [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)                                        | [solve/solve0387](../solve/solve0387)     |
 | 389    | 简单 | [找不同](https://leetcode-cn.com/problems/find-the-difference/)                                                                         | [solve/solve0389](../solve/solve0389)     |
 | 455    | 简单 | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/)                                                                            | [solve/solve0455](../solve/solve0455)     |
