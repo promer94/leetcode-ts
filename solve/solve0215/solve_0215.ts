@@ -18,12 +18,8 @@ function quickSort(nums: number[], l: number, r: number, k: number): number {
   let j = r + 1
   const partition = nums[l]
   while (i < j) {
-    do {
-      i++
-    } while (nums[i] > partition)
-    do {
-      j--
-    } while (nums[j] < partition)
+    while (nums[++i] > partition);
+    while (nums[--j] < partition);
     if (i < j) {
       const temp = nums[i]
       nums[i] = nums[j]

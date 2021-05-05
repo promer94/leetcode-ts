@@ -9,7 +9,7 @@
  */
 
 function topKFrequent(nums: number[], k: number): number[] {
-  const frequencyMap = new Map()
+  const frequencyMap = new Map<number, number>()
   for (let i = 0; i < nums.length; i++) {
     if (frequencyMap.has(nums[i])) {
       frequencyMap.set(nums[i], frequencyMap.get(nums[i]) + 1)
@@ -18,7 +18,7 @@ function topKFrequent(nums: number[], k: number): number[] {
     }
   }
   const list = Array.from(frequencyMap.entries())
-  const index = quickSelect(list as any, 0, list.length - 1, k)
+  const index = quickSelect(list, 0, list.length - 1, k)
   return list.slice(0, index + 1).map((v) => v[0])
 }
 
@@ -33,12 +33,8 @@ function quickSelect(
   let j = r + 1
   const partition = nums[l][1]
   while (i < j) {
-    do {
-      i++
-    } while (nums[i][1] > partition)
-    do {
-      j--
-    } while (nums[j][1] < partition)
+    while (nums[++i][1] > partition);
+    while (nums[--j][1] < partition);
     if (i < j) {
       const temp = nums[i]
       nums[i] = nums[j]
