@@ -11,18 +11,15 @@
 export function lengthOfLongestSubstring(s: string): number {
   const hashSet = new Set()
   let result = 0
-  let sum = 0
-  let i = 0
-  for (let j = 0; j < s.length; j++) {
-    const c = s[j]
-    sum += 1
+  let j = 0
+  for (let i = 0; i < s.length; i++) {
+    const c = s[i]
     while (hashSet.has(c)) {
-      sum -= 1
-      hashSet.delete(s[i])
-      i++
+      hashSet.delete(s[j])
+      j++
     }
     hashSet.add(c)
-    result = Math.max(result, sum)
+    result = Math.max(result, i - j + 1)
   }
   return result
 }
