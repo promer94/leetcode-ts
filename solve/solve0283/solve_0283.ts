@@ -21,3 +21,38 @@ function moveZeroes(nums: number[]): void {
     nums[i] = 0
   }
 }
+
+function moveZeroes2(nums: number[]): void {
+  let left = 0
+  let right = 0
+  // 0 1 0 3 12
+  // i
+  // j
+
+  // 0 1
+  // i j
+
+  // 1 0 0 3 12
+  //   i j
+
+  // 1 0 0 3 12
+  //   i   j
+
+  // 1 3 0 0 12
+  //     i j
+
+  // 1 3 0 0 12
+  //     i    j
+
+  // 1 3 12 0 0
+  //        i j
+  while (right < nums.length) {
+    if (nums[right] !== 0) {
+      const temp = nums[right]
+      nums[right] = nums[left]
+      nums[left] = temp
+      left++
+    }
+    right++
+  }
+}
