@@ -2,7 +2,7 @@
 
 <!--- table -->
 
-总计: 58
+总计: 69
 
 | 序号   | 难度 | 题目                                                                                                                                    | 解答                                      |
 | ------ | ---- | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
@@ -12,6 +12,7 @@
 | 19     | 中等 | [删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)                                         | [solve/solve0019](../solve/solve0019)     |
 | 20     | 简单 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)                                                                       | [solve/solve0020](../solve/solve0020)     |
 | 21     | 简单 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)                                                            | [solve/solve0021](../solve/solve0021)     |
+| 23     | 困难 | [合并 K 个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)                                                             | [solve/solve0023](../solve/solve0023)     |
 | 24     | 中等 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)                                                           | [solve/solve0024](../solve/solve0024)     |
 | 25     | 困难 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)                                                          | [solve/solve0025](../solve/solve0025)     |
 | 26     | 简单 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)                                         | [solve/solve0026](../solve/solve0026)     |
@@ -26,6 +27,7 @@
 | 88     | 简单 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)                                                                | [solve/solve0088](../solve/solve0088)     |
 | 92     | 中等 | [反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)                                                                 | [solve/solve0092](../solve/solve0092)     |
 | 94     | 中等 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)                                                     | [solve/solve0094](../solve/solve0094)     |
+| 98     | 中等 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)                                                         | [solve/solve0098](../solve/solve0098)     |
 | 100    | 简单 | [相同的树](https://leetcode-cn.com/problems/same-tree/)                                                                                 | [solve/solve0100](../solve/solve0100)     |
 | 101    | 简单 | [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)                                                                          | [solve/solve0101](../solve/solve0101)     |
 | 102    | 中等 | [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)                                                 | [solve/solve0102](../solve/solve0102)     |
@@ -44,23 +46,32 @@
 | 145    | 中等 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)                                                   | [solve/solve0145](../solve/solve0145)     |
 | 153    | 中等 | [寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)                                    | [solve/solve0153](../solve/solve0153)     |
 | 155    | 简单 | [最小栈](https://leetcode-cn.com/problems/min-stack/)                                                                                   | [solve/solve0155](../solve/solve0155)     |
+| 160    | 简单 | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)                                                          | [solve/solve0160](../solve/solve0160)     |
 | 179    | 中等 | [最大数](https://leetcode-cn.com/problems/largest-number/)                                                                              | [solve/solve0179](../solve/solve0179)     |
+| 191    | 简单 | [位 1 的个数](https://leetcode-cn.com/problems/number-of-1-bits/)                                                                       | [solve/solve0191](../solve/solve0191)     |
 | 199    | 中等 | [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)                                                         | [solve/solve0199](../solve/solve0199)     |
+| 203    | 简单 | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)                                                           | [solve/solve0203](../solve/solve0203)     |
 | 206    | 简单 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)                                                                       | [solve/solve0206](../solve/solve0206)     |
 | 215    | 中等 | [数组中的第 K 个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)                                            | [solve/solve0215](../solve/solve0215)     |
 | 217    | 简单 | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)                                                                    | [solve/solve0217](../solve/solve0217)     |
+| 283    | 简单 | [移动零](https://leetcode-cn.com/problems/move-zeroes/)                                                                                 | [solve/solve0283](../solve/solve0283)     |
 | 290    | 简单 | [单词规律](https://leetcode-cn.com/problems/word-pattern/)                                                                              | [solve/solve0290](../solve/solve0290)     |
 | 347    | 中等 | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)                                                            | [solve/solve0347](../solve/solve0347)     |
 | 387    | 简单 | [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)                                        | [solve/solve0387](../solve/solve0387)     |
 | 389    | 简单 | [找不同](https://leetcode-cn.com/problems/find-the-difference/)                                                                         | [solve/solve0389](../solve/solve0389)     |
 | 455    | 简单 | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/)                                                                            | [solve/solve0455](../solve/solve0455)     |
+| 543    | 简单 | [二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)                                                               | [solve/solve0543](../solve/solve0543)     |
+| 617    | 简单 | [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/)                                                                  | [solve/solve0617](../solve/solve0617)     |
 | 714    | 中等 | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)                    | [solve/solve0714](../solve/solve0714)     |
 | 738    | 中等 | [单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits/)                                                          | [solve/solve0738](../solve/solve0738)     |
 | 747    | 简单 | [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)                                                        | [solve/solve0747](../solve/solve0747)     |
+| 904    | 简单 | [叶子相似的树](https://leetcode-cn.com/problems/leaf-similar-trees/)                                                                    | [solve/solve0904](../solve/solve0904)     |
 | 933    | 简单 | [递增顺序搜索树](https://leetcode-cn.com/problems/increasing-order-search-tree/)                                                        | [solve/solve0933](../solve/solve0933)     |
 | 975    | 简单 | [二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/)                                                                | [solve/solve0975](../solve/solve0975)     |
 | 1056   | 中等 | [在 D 天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)                                    | [solve/solve1056](../solve/solve1056)     |
 | 1206   | 中等 | [航班预订统计](https://leetcode-cn.com/problems/corporate-flight-bookings/)                                                             | [solve/solve1206](../solve/solve1206)     |
+| 1605   | 中等 | [制作 m 束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/)                                | [solve/solve1605](../solve/solve1605)     |
 | 1812   | 简单 | [重新格式化电话号码](https://leetcode-cn.com/problems/reformat-phone-number/)                                                           | [solve/solve1812](../solve/solve1812)     |
 | 1813   | 中等 | [删除子数组的最大得分](https://leetcode-cn.com/problems/maximum-erasure-value/)                                                         | [solve/solve1813](../solve/solve1813)     |
+| 1835   | 中等 | [解码异或后的排列](https://leetcode-cn.com/problems/decode-xored-permutation/)                                                          | [solve/solve1835](../solve/solve1835)     |
 | 100318 | 困难 | [数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)                                                      | [solve/solve100318](../solve/solve100318) |

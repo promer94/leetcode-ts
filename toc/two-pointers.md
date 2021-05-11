@@ -2,7 +2,7 @@
 
 <!--- table -->
 
-总计: 7
+总计: 8
 
 | 序号 | 难度 | 题目                                                                                                     | 解答                                  |
 | ---- | ---- | -------------------------------------------------------------------------------------------------------- | ------------------------------------- |
@@ -12,4 +12,5 @@
 | 61   | 中等 | [旋转链表](https://leetcode-cn.com/problems/rotate-list/)                                                | [solve/solve0061](../solve/solve0061) |
 | 88   | 简单 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)                                 | [solve/solve0088](../solve/solve0088) |
 | 141  | 简单 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)                                          | [solve/solve0141](../solve/solve0141) |
+| 283  | 简单 | [移动零](https://leetcode-cn.com/problems/move-zeroes/)                                                  | [solve/solve0283](../solve/solve0283) |
 | 1813 | 中等 | [删除子数组的最大得分](https://leetcode-cn.com/problems/maximum-erasure-value/)                          | [solve/solve1813](../solve/solve1813) |
