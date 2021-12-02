@@ -26,13 +26,12 @@
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
+    "glob": "^7.2.0",
     "husky": "^4.3.6",
     "jest": "^27.4.3",
     "lint-staged": "^10.5.4",
     "prettier": "^2.5.0",
-    "ts-jest": "^26.5.4",
-    "typescript": "^4.5.2",
-    "glob": "^7.2.0"
+    "typescript": "^4.5.2"
   },
   "lint-staged": {
     "*.{js,json,ts}": [
@@ -44,5 +43,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "@swc-node/jest": "^1.4.1"
   }
 }
