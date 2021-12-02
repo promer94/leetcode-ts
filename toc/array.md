@@ -2,13 +2,19 @@
 
 <!--- table -->
 
-
 总计: 18
 
-| 序号 | 难度 | 题目                    | 解答                      |
-| ---- | ---- | ------------------ | ---------------- |
-| 169 | 简单 | [多数元素](https://leetcode-cn.com/problems/majority-element/) | [solve\solve0169](../solve\solve0169)|
-| 53 | 简单 | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [solve\solve0053](../solve\solve0053)|
+| 序号 | 难度 | 题目 | 解答 |
+| ---- | ---- | ---- | ---- |
+
+| 169
+| 简单
+| [多数元素
+](https://leetcode-cn.com/problems/majority-element/) | [solve\solve0169](../solve\solve0169)|
+| 53
+| 简单
+| [最大子序和
+](https://leetcode-cn.com/problems/maximum-subarray/) | [solve\solve0053](../solve\solve0053)|
 | 1 | 简单 | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [solve\solve0001](../solve\solve0001)|
 | 26 | 简单 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [solve\solve0026](../solve\solve0026)|
 | 33 | 中等 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [solve\solve0033](../solve\solve0033)|

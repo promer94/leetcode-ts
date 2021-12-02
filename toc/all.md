@@ -2,23 +2,38 @@
 
 <!--- table -->
 
-
 总计: 73
 
-| 序号 | 难度 | 题目                    | 解答                      |
-| ---- | ---- | ------------------ | ---------------- |
-| 53 | 简单 | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [solve\solve0053](../solve\solve0053)|
-| 1835 | 中等 | [解码异或后的排列](https://leetcode-cn.com/problems/decode-xored-permutation/) | [solve\solve1835](../solve\solve1835)|
-| 1435 | 中等 | [子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/) | [solve\solve1435](../solve\solve1435)|
-| 169 | 简单 | [多数元素](https://leetcode-cn.com/problems/majority-element/) | [solve\solve0169](../solve\solve0169)|
-| 234 | 简单 | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | [solve\solve0234](../solve\solve0234)|
+| 序号 | 难度 | 题目 | 解答 |
+| ---- | ---- | ---- | ---- |
+
+| 53
+| 简单
+| [最大子序和
+](https://leetcode-cn.com/problems/maximum-subarray/) | [solve\solve0053](../solve\solve0053)|
+| 1835
+| 中等
+| [解码异或后的排列
+](https://leetcode-cn.com/problems/decode-xored-permutation/) | [solve\solve1835](../solve\solve1835)|
+| 1435
+| 中等
+| [子数组异或查询
+](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/) | [solve\solve1435](../solve\solve1435)|
+| 169
+| 简单
+| [多数元素
+](https://leetcode-cn.com/problems/majority-element/) | [solve\solve0169](../solve\solve0169)|
+| 234
+| 简单
+| [回文链表
+](https://leetcode-cn.com/problems/palindrome-linked-list/) | [solve\solve0234](../solve\solve0234)|
 | 1 | 简单 | [两数之和](https://leetcode-cn.com/problems/two-sum/) | [solve\solve0001](../solve\solve0001)|
 | 2 | 中等 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [solve\solve0002](../solve\solve0002)|
 | 3 | 中等 | [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) | [solve\solve0003](../solve\solve0003)|
 | 19 | 中等 | [删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [solve\solve0019](../solve\solve0019)|
 | 20 | 简单 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [solve\solve0020](../solve\solve0020)|
 | 21 | 简单 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [solve\solve0021](../solve\solve0021)|
-| 23 | 困难 | [合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [solve\solve0023](../solve\solve0023)|
+| 23 | 困难 | [合并 K 个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/) | [solve\solve0023](../solve\solve0023)|
 | 24 | 中等 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [solve\solve0024](../solve\solve0024)|
 | 25 | 困难 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [solve\solve0025](../solve\solve0025)|
 | 26 | 简单 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [solve\solve0026](../solve\solve0026)|
@@ -54,11 +69,11 @@
 | 155 | 简单 | [最小栈](https://leetcode-cn.com/problems/min-stack/) | [solve\solve0155](../solve\solve0155)|
 | 160 | 简单 | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [solve\solve0160](../solve\solve0160)|
 | 179 | 中等 | [最大数](https://leetcode-cn.com/problems/largest-number/) | [solve\solve0179](../solve\solve0179)|
-| 191 | 简单 | [位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [solve\solve0191](../solve\solve0191)|
+| 191 | 简单 | [位 1 的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [solve\solve0191](../solve\solve0191)|
 | 199 | 中等 | [二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | [solve\solve0199](../solve\solve0199)|
 | 203 | 简单 | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [solve\solve0203](../solve\solve0203)|
 | 206 | 简单 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [solve\solve0206](../solve\solve0206)|
-| 215 | 中等 | [数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [solve\solve0215](../solve\solve0215)|
+| 215 | 中等 | [数组中的第 K 个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [solve\solve0215](../solve\solve0215)|
 | 217 | 简单 | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [solve\solve0217](../solve\solve0217)|
 | 283 | 简单 | [移动零](https://leetcode-cn.com/problems/move-zeroes/) | [solve\solve0283](../solve\solve0283)|
 | 290 | 简单 | [单词规律](https://leetcode-cn.com/problems/word-pattern/) | [solve\solve0290](../solve\solve0290)|
