@@ -4,7 +4,7 @@ import esbuild from 'esbuild'
 function findTs() {
   return new Promise((resolve, reject) => {
     glob('solve/**/*.ts', {}, function (er, files) {
-      if (er) reject(error)
+      if (er) reject(er)
       resolve(files.filter((v) => !v.includes('test')))
     })
   })
