@@ -11,8 +11,8 @@
     "sourceMap": true,
     "outDir": "./dist",
     "allowJs": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "types": ["jest"]
   },
-  "exclude": ["node_modules", "dist", ".eslintrc.js", "solve/**/*.test.ts"],
-  "include": ["solve"]
+  "include": ["solve/**/*.test.ts"]
 }
