@@ -1,23 +1,15 @@
 {
   "compilerOptions": {
-    "declaration": true,
+    "composite": true,
     "module": "ESNext",
     "target": "es2017",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
     "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "sourceMap": true,
-    "outDir": "./dist",
     "allowJs": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "moduleResolution": "node",
-    "types": [
-      "vitest/globals"
-    ]
+    "types": ["vitest/globals"],
+    "emitDeclarationOnly": true
   },
-  "include": [
-    "solve/**/*.test.ts"
-  ]
+  "exclude": ["node_modules", "dist"],
+  "include": ["vitest.config.ts", "solve/**/*.test.ts"]
 }

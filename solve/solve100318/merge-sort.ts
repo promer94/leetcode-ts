@@ -2,7 +2,7 @@ function reversePairs(nums: number[]): number {
   return mergeSort(nums, 0, nums.length - 1)
 }
 
-function mergeSort(nums: number[], l: number, r: number): number {
+export function mergeSort(nums: number[], l: number, r: number): number {
   if (l >= r) return 0
   const mid = Math.floor((l + r) / 2)
   let result = mergeSort(nums, l, mid) + mergeSort(nums, mid + 1, r)

@@ -1,26 +1,18 @@
 {
   "compilerOptions": {
-    "declaration": true,
+    "composite": true,
     "module": "ESNext",
     "target": "es2017",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "sourceMap": true,
-    "outDir": "./dist",
-    "allowJs": true,
     "isolatedModules": true,
     "moduleResolution": "node",
-    "types": [
-      "vitest/globals"
-    ]
+    "emitDeclarationOnly": true,
+    "types": ["vitest/globals"]
   },
-  "exclude": [
-    "node_modules",
-    "dist",
-    ".eslintrc.js",
-    "solve/**/*.test.ts"
-  ],
+  "exclude": ["node_modules", "dist", ".eslintrc.js", "solve/**/*.test.ts"],
+  "include": ["solve"],
+  "references": [
+    {
+      "path": "./tsconfig.test.json"
+    }
+  ]
 }

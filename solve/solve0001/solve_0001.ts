@@ -13,7 +13,7 @@ export function twoSum(nums: number[], target: number): number[] {
 
   for (let i = 0; i < nums.length; i++) {
     if (mp.has(target - nums[i])) {
-      return [mp.get(target - nums[i]), i]
+      return [mp.get(target - nums[i]) as number, i]
     }
     mp.set(nums[i], i)
   }

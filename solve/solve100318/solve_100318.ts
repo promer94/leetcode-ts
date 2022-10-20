@@ -13,7 +13,7 @@ function reversePairs(nums: number[]): number {
   return mergeSort(nums, 0, nums.length - 1, aux)
 }
 
-function mergeSort(
+export function mergeSort(
   nums: number[],
   left: number,
   right: number,
