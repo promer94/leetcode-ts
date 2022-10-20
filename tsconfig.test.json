@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "module": "commonjs",
+    "module": "ESNext",
     "target": "es2017",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -12,7 +12,12 @@
     "outDir": "./dist",
     "allowJs": true,
     "isolatedModules": true,
-    "types": ["jest"]
+    "moduleResolution": "node",
+    "types": [
+      "vitest/globals"
+    ]
   },
-  "include": ["solve/**/*.test.ts"]
+  "include": [
+    "solve/**/*.test.ts"
+  ]
 }

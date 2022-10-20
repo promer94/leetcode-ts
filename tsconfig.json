@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "module": "commonjs",
+    "module": "ESNext",
     "target": "es2017",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -11,8 +11,16 @@
     "sourceMap": true,
     "outDir": "./dist",
     "allowJs": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "types": [
+      "vitest/globals"
+    ]
   },
-  "exclude": ["node_modules", "dist", ".eslintrc.js", "solve/**/*.test.ts"],
-  "include": ["solve"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".eslintrc.js",
+    "solve/**/*.test.ts"
+  ],
 }
