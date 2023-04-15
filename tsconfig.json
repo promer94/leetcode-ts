@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
     "composite": true,
-    "module": "ESNext",
+    "module": "NodeNext",
     "target": "es2017",
     "isolatedModules": true,
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "emitDeclarationOnly": true,
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals"],
+    "paths": {
+      "~/*": ["*"]
+    }
   },
   "exclude": ["node_modules", "dist", ".eslintrc.js", "solve/**/*.test.ts"],
   "include": ["solve"],

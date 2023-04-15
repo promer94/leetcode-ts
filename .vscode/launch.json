@@ -7,11 +7,29 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
-      "skipFiles": ["<node_internals>/**"],
+      "name": "Run",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "node",
+      "args": [
+        "--loader",
+        "tsx",
+        "${file}"
+      ],
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${file}",
       "preLaunchTask": "npm: build",
-      "outFiles": ["${workspaceFolder}/dist/**/*.mjs"]
-    }
+      "outFiles": [
+        "${workspaceFolder}/dist/**/*.mjs"
+      ]
+    },
   ]
 }

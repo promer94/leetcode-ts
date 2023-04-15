@@ -1,27 +1,23 @@
-import glob from 'glob'
+import { glob } from 'glob'
 import esbuild from 'esbuild'
 
-function findTs() {
-  return new Promise((resolve, reject) => {
-    glob('solve/**/*.ts', {}, function (er, files) {
-      if (er) reject(e)
-      resolve(files.filter((v) => !v.includes('test')))
+async function build() {
+  const files = await glob('solve/**/*.ts', {
+    ignore: {
+      ignored: (path) => /\.test\./.test(path.name)
+    }
+  })
+  return esbuild
+    .build({
+      entryPoints: files,
+      write: true,
+      outdir: 'dist',
+      sourcemap: true,
+      outExtension: { '.js': '.mjs' },
     })
-  })
+    .catch((e) => {
+      console.log('build faild')
+    })
 }
 
-function buildTs(files) {
-  return esbuild.build({
-    entryPoints: files,
-    write: true,
-    outdir: 'dist',
-    sourcemap: true,
-    outExtension: { '.js': '.mjs' },
-  })
-}
-
-findTs()
-  .then((v) => buildTs(v))
-  .catch((e) => {
-    console.log('build faild')
-  })
+build()
