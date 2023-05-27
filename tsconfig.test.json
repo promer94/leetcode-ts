@@ -11,5 +11,5 @@
     "emitDeclarationOnly": true
   },
   "exclude": ["node_modules", "dist"],
-  "include": ["vitest.config.ts", "solve/**/*.test.ts"]
+  "include": ["vitest.config.ts", "solve"]
 }

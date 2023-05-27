@@ -9,24 +9,34 @@
  */
 
 export function searchRange(nums: number[], target: number): number[] {
-  if (target < nums[0] || target > nums[nums.length - 1]) {
+  const length = nums.length - 1
+  if (target < nums[0] || target > nums[length]) {
     return [-1, -1]
   }
-
-  let low = -1
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[i] === target) {
-      low = i
-      break
+  let l = 0
+  let r = length
+  // 1 2 2 3 4 5 6
+  //   *
+  while (l < r) {
+    let mid = l + r >> 1
+    if (nums[mid] >= target) {
+      r = mid
+    } else {
+      l = mid + 1
     }
   }
-  if (low === -1) return [-1, -1]
-  let high = -1
-  for (let i = nums.length - 1; i >= low; i--) {
-    if (nums[i] === target) {
-      high = i
-      break
+  if (nums[l] !== target) return [-1, -1]
+  let left = l
+  r = length
+  // 1 2 2 3 4 5 6
+  //     *
+  while (l < r) {
+    let mid = l + r + 1 >> 1
+    if (nums[mid] <= target) {
+      l = mid
+    } else {
+      r = mid - 1
     }
   }
-  return [low, high]
+  return [left, l]
 }
