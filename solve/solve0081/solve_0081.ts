@@ -11,12 +11,8 @@
 function search(nums: number[], target: number): boolean {
   let l = 0
   let r = nums.length - 1
-  while (l < r) {
-    if (nums[l] === nums[r]) {
-      r--
-    } else {
-      break
-    }
+  while (l < r && nums[l] !== nums[r]) {
+    r--
   }
   if (l === r) {
     return target === nums[l]
