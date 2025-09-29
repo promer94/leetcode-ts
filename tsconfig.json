@@ -8,7 +8,7 @@
     "emitDeclarationOnly": true,
     "types": ["vitest/globals"],
     "paths": {
-      "~/*": ["*"]
+      "~/*": ["./"]
     }
   },
   "exclude": ["node_modules", "dist", ".eslintrc.js", "solve/**/*.test.ts"],
