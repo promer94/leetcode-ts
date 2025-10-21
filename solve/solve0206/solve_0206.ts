@@ -21,7 +21,7 @@ export function reverseList(head: ListNode | null): ListNode | null {
   if (head) {
     let prev = null
     let current = head
-    while (current.next) {
+    while (current) {
       const temp = current.next
       current.next = prev
       prev = current
@@ -30,4 +30,16 @@ export function reverseList(head: ListNode | null): ListNode | null {
     return prev
   }
   return null
+}
+
+export function reverseListRecursive(
+  head: ListNode | null
+): ListNode | null {
+  if (!head || !head.next) {
+    return head
+  }
+  const newHead = reverseListRecursive(head.next)
+  head.next.next = head
+  head.next = null
+  return newHead
 }
